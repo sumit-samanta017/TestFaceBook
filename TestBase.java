@@ -73,7 +73,6 @@ public class TestBase {
 	public void tearDown() throws InterruptedException {
 		Thread.sleep(5000);
 		cDriver.quit();
-		cDriver.close();
 	}
 
 }
